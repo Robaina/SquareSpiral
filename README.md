@@ -1,6 +1,6 @@
 # A Spiral of nested squares
 
-![squares](squares.png)
+<img alt="squares" src="squares.png" style="width:400px;">
 
 An interactive geometrical art experience featuring nested squares. Each nested square is rotated by a fixed degree with respect to the container square. The rotation angle can be changed with the range slider.
 
