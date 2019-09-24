@@ -57,7 +57,10 @@ function updateScaleFactor() {
 }
 
 function linearGradient(color1=[255, 0, 0], color2=[0, 0, 255], alpha=0.5) {
-   // c = alpha*a + (1-alpha)*b
+  /* Creates a linear gradient between two rgb colors. Specifically, a convex
+     combination between the two vectors representing the rgb color, i.e.,
+     color3 = alpha * color1 + (1 - alpha) * color2
+  */
    color3 = [];
    for (let i=0; i<3; i++) {
      color3.push(alpha*color1[i] + (1-alpha)*color2[i]);
